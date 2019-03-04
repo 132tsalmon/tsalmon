@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- Background by SVGBACKGROUND.COM 
+Favicon by http://www.iconarchive.com/show/mono-general-2-icons-by-custom-icon-design/document-icon.html
+-->
+    <html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli|Nanum+Gothic|Nunito|Open+Sans" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="Assets/favicon.ico"/>
+<meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="CSS/Styles.css" media="screen" />
+    <script src="javaScript/Script.js"></script>
+<title>How to make a file Hierarchy in Adobe Brackets </title>
+</head>
+
+<body>
+    <ul>
+        <li class="titlebar" style="float:left "><h2>Website</h2></li>
+        <div id="navbar-right">
+  <li><a href="#javascript">Javascript</a></li>
+  <li><a href="#assets">Assets</a></li>
+  <li><a href="#css">Css</a></li>
+  <li><a href="#index">Index</a></li>
+  <li><a href="ame.html">Encoding</a></li>
+        </div></ul>
+
+    <h1>How To Make a File Hierarchy in Adobe Brackets</h1>
+            
+    <div class="spacer" ></div>
+    <div class="div1">
+        <div id="index"></div>
+    <h2>How to Create An Index.Html</h2>
+        <p>The first and most important step is to create an index.html</p> 
+        <h4>Step 1:</h4>
+        <p>Right Click And click "new folder"</p>
+<h4>Step 2:</h4>
+        <p>Make a new text document and Name the file "Index.Html" <strong>MAKE SURE TO CHANGE ".txt" TO ".HTML"</strong> </p>
+         <img src="Assets/1.PNG">
+        <h4>Step 3:</h4>
+        <p>Open it in adobe brackets and copy the following: </p>
+         <div class="codebox">
+        <code>   
+ &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;title&gt;Title of the document&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+Content of the document......
+&lt;/body&gt;
+
+&lt;/html&gt;
+        </code>
+    </div>
+        <img src="Assets/3.PNG" width="50%" height="50%">
+         <div id="css"></div>
+        <h2>How to add an external a CSS Folder</h2>
+        <h4>Step 1:</h4>
+        <p>Create a new folder in the same directory as the index.html name it "css"</p>
+        <img src="Assets/c1.PNG">
+        <h4>Step 2:</h4>
+        <p>Open the "css" folder and make a new text document</p>
+        <p>Rename it to "styles.css"<strong>MAKE SURE TO CHANGE ".txt" TO ".CSS"</strong></p>
+        <img src="Assets/a2.PNG">
+        <h4>Step 3:</h4>
+        <p>Copy and paste the following under the &lt;head&gt; tag in your index.html</p>
+        <img src="Assets/c3.PNG">
+          <div class="codebox">
+        <code>   
+  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;CSS/Styles.css&quot; media=&quot;screen&quot; /&gt;
+        </code>
+    </div>
+         <div id="assets"></div>
+        <h2>How to Create an Assets Folder</h2>
+        <h4>Step 1:</h4>
+        <p>Create a New folder called "assets" In the Website's Directory</p>
+    <img src="Assets/a1.PNG">
+        <h4>Step 2:</h4>
+        <p>Paste any images/other assets in the folder</p>
+        <img src="Assets/a2.PNG">
+        <h4>Step 3:</h4>
+        <p>to use this assets use the following</p>
+          <div class="codebox">
+        <code>   
+  src="/assets/name.placeholder"
+        </code>
+        </div>
+        <img src="Assets/a3.PNG">
+         <div id="javascript"></div>
+        <h2>How to Create an External JavaScript file</h2>
+        <h4>Step 1:</h4>
+        <p>Create a new folder called "javascript in the same directory as your Index.Html</p>
+        <img src="Assets/j1.PNG">
+        <h4>Step 2:</h4>
+        <p>Create a new text file and rename it to "Script.js"<strong>MAKE SURE TO CHANGE ".txt" TO ".JS"</strong></p>
+        <img src="Assets/j2.PNG">
+        <h4>Step 3:</h4>
+        <p>Add the following to your "index.html" under the &lt;head&gt; tag </p>
+        <img src="Assets/j3.PNG">
+        <div class="codebox">
+        <code>   
+ &lt;script src=&quot;javaScript/Script.js&quot;&gt;&lt;/script&gt;
+        </code>
+    </div>
+    </div>
+        </body>
+</html>
